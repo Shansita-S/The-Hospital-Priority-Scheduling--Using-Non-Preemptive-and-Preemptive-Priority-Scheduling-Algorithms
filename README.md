@@ -5,31 +5,31 @@ The choice between the two scheduling methods depends on the hospital’s
 requirements:
 1. Non-Pre-emptive Priority Scheduling:
 
- Patients are treated in order of priority, and once a treatment
+ Patients are treated in order of priority, and once a treatment
 starts, it cannot be interrupted.
- This method ensures that a high-priority patient does not get
+ This method ensures that a high-priority patient does not get
 interrupted but may cause delays for critical patients arriving
 later.
 
 2. Pre-emptive Priority Scheduling:
 
- The system allows interruption if a patient with a higher
+ The system allows interruption if a patient with a higher
 priority arrives or becomes available
- This ensures that the most critical patients get immediate
+ This ensures that the most critical patients get immediate
 
 attention but may lead to longer waiting times for lower-
 priority cases.
 
 Key Observations:
 
- Waiting Time (WT) and Turnaround Time (TAT):
+ Waiting Time (WT) and Turnaround Time (TAT):
 1. Preemptive scheduling usually results in lower
 waiting times for high-priority patients but may
 increase waiting times for lower-priority ones.
 2. Non-pre-emptive scheduling ensures that once
 a patient starts treatment, it is completed
 without interruption
- Efficiency
+ Efficiency
 1. Preemptive scheduling is better suited for
 emergency cases where critical patients need
 immediate attention.
